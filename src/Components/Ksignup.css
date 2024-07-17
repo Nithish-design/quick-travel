@@ -1,0 +1,104 @@
+/* Ksignup.css */
+
+.signup-container {
+  background: url("../Images/busgif.gif");
+  height: 100vh;
+  width: 100%;
+  background-size: 155vh;
+}
+
+.signup-card {
+  margin-top: 80px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-left: 550px;
+  background-color: rgb(142, 193, 202);
+}
+
+.signup-title {
+  color: #a962ca;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.already-account {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  text-align: center;
+  color: blue;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.submit {
+  margin-left: 140px;
+  color: black;
+  background-color: rgba(255, 60, 0, 0.801);
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+  .signup-card {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .signup-container {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .signup-card {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-card {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .signup-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .signup-card {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .signup-title {
+    font-size: 1rem;
+  }
+  .submit {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
